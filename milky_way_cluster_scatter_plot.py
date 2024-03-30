@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Adjust the path to where the file is located on your system
-file_path = 'Project 2 Data.xlsx'
+file_path = 'data.xlsx'
 
 # Load the data
 open_clusters = pd.read_excel(file_path, sheet_name='Open Cluster Coordinates')

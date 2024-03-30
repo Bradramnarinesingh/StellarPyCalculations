@@ -4,7 +4,7 @@ import numpy as np
 from scipy import stats
 
 # Set the file path
-file_path = 'Project 2 Data.xlsx'
+file_path = 'data.xlsx'
 
 # Load the data for Milky Way Cepheids
 cepheids_data = pd.read_excel(file_path, sheet_name='Milky Way Cepheids')
